@@ -1,5 +1,4 @@
 # Pyramide
-
 etage = gets.chomp.to_i
 bric = "#"
 num = etage
