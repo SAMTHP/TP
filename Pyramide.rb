@@ -1,12 +1,12 @@
 # Pyramide
 
 etage = gets.chomp.to_i
-marche = "#"
-space = 10
-espace = " " * space
+bric = "#"
+num = etage
 
 etage.times do
-  puts espace + marche
-  marche += "#"
-  space - 1
+  space = " " * num
+  puts space + bric
+  bric += "##"
+  num = num - 1
 end
